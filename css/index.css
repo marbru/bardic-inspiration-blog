@@ -95,6 +95,12 @@ iframe {
 p:last-child {
 	margin-bottom: 0;
 }
+
+/* 404 page */
+/* [class="404-image"] {
+	display: block;
+	margin: 0 auto;
+} */
 p {
 	line-height: 1.5;
 }
