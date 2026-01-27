@@ -1,6 +1,6 @@
 # Bardic inspiration blog
 
-This is my personal blog, built with eleventy and based on the [https://github.com/11ty/eleventy-base-blog](eleventy-base-blog v9) starter template.
+This is my personal blog, built with eleventy and based on the [eleventy-base-blog v9](https://github.com/11ty/eleventy-base-blog) starter template.
 
 ## Development
 
@@ -27,4 +27,6 @@ Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the
 
 ## Notes
 
-Blog base url lives on [_data/metadata.js]().
+- Blog base url lives on [_data/metadata.js]().
+- The content on `./public` will be copied to `./_site` at build time. Eg: `./public/css/*` will live at `./_site/css/*`.
+- URLs get `/content/` prepended automatically by the `HtmlBasePlugin`. Use `eleventy:ignore` to override (eg, done in [_includes/layouts/base.njk])
