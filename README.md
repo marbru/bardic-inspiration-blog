@@ -25,6 +25,10 @@ npx @11ty/eleventy --serve
 Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the internals.
 
 
+## Writing
+
+Posts go on [content/blog/](), each in their own directory. Content like images or any other assets go in the post folder. Post text goes on a `post.md` file. 
+
 ## Notes
 
 - Blog base url lives on [_data/metadata.js]().
