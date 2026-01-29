@@ -120,6 +120,10 @@ export default async function (eleventyConfig) {
 		return (new Date()).toISOString();
 	});
 
+	eleventyConfig.addShortcode("divider", () => {
+		return '<img src="/img/ornament.png" alt="" class="divider" eleventy:ignore>';
+	});
+
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
