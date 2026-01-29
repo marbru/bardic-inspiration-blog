@@ -247,7 +247,7 @@ header {
 	margin: 0.25em 0 0.5em;
 	font-size: 0.9em;
 	color: var(--color-gray-90);
-
+	font-style: italic;
 }
 .home-link {
 	font-family: 'Almendra', serif;
