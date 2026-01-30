@@ -2,6 +2,8 @@
 
 This is my personal blog, built with eleventy and based on the [eleventy-base-blog v9](https://github.com/11ty/eleventy-base-blog) starter template.
 
+See live on http://mar.coconauts.net/blog
+
 ## Development
 
 Install deps:
@@ -28,6 +30,12 @@ Or you can run [debug mode](https://www.11ty.dev/docs/debugging/) to see all the
 ## Writing
 
 Posts go on [content/blog/](content/blog/), each in their own directory. Directory name will become the url segment for that post. Content should go on a `.md` file matching the same name as the directory. Assets particular to that post (like images or any downloads) should go in the folder as well, and linked relatively from the post content.  
+
+
+## Deployment 
+
+The blog is hosted on github pages. There's [a github workflow](.github/workflows/gh.pages.yml) that is triggered by repository pushes and will build the blog and place the result on the `gh-pages` branch. It is then served on http://mar.coconauts.net/blog
+
 
 ## Notes
 
